@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 20px 10px 20px 10px;
+    background-color: #8fb;
+    height: 100vh; 
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+@media screen and (max-width: 1007px) {
+    body {
+        background-color: #bb901c;
+        align-items: center;
+    }
+    .card {
+        background-color: purple;
+        font-size: green;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: #dbb466;
+    }
+    .card {
+        display: none;
+    }
+}
+
